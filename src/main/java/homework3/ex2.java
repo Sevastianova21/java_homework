@@ -14,10 +14,10 @@ public class ex2 {
 
     private static ArrayList<Integer> create_random_array() {
         Random random = new Random();
-        ArrayList<Integer> arrayList = new ArrayList<>();
+        ArrayList<Integer> integers = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
-            arrayList.add(random.nextInt(10));
+            integers.add(random.nextInt(10));
         }
-        return arrayList;
+        return integers;
     }
 }

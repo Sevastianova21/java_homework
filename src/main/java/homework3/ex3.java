@@ -12,6 +12,7 @@ public class ex3 {
         System.out.println(delete_integer(smth));
 
 
+
     }
 
     public static ArrayList<String> create_list() {
@@ -31,13 +32,13 @@ public class ex3 {
             return false;
         }
     }
-    public static ArrayList<String> delete_integer(ArrayList <String> smth){
+    public static ArrayList<String> delete_integer(ArrayList <String> strings){
 
-        for (int i = 0;i < smth.size();i++   ) {
-            if (isNumeric(smth.get(i))) {
-                smth.remove(i);
+        for (int i = 0;i < strings.size();i++   ) {
+            if (isNumeric(strings.get(i))) {
+                strings.remove(i);
             }
         }
-        return smth;
+        return strings;
     }
 }
