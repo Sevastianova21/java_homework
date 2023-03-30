@@ -13,11 +13,11 @@ public class ex1 {
 
     private static ArrayList<Integer> create_random_array() {
         Random random = new Random();
-        ArrayList<Integer> integers = new ArrayList<>();
+        ArrayList<Integer> arrayList = new ArrayList<>();
         for (int i = 0; i < 20; i++) {
-            integers.add(random.nextInt(100));
+            arrayList.add(random.nextInt(100));
         }
-        return integers;
+        return arrayList;
     }
 
 }
